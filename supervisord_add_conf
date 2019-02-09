@@ -1,0 +1,5 @@
+[supervisord]
+nodaemon=true
+#Asterisk
+[program:asterisk]
+command=/usr/sbin/asterisk start
