@@ -1,7 +1,8 @@
 version: '2'
 services:
   asterisk:
-    build: Dockerfile
+    build: .
+    image:  ashishsharma0012/asterisk:4
     volumes:
         - "./var/asterisk:/etc/asterisk"
     network_mode: "host"
